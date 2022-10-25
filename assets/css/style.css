@@ -1,0 +1,142 @@
+:root {
+--white: #FFF ;
+--platinium: #E8EBE4 ;
+--gray: #BEC1BB ;
+--blue_bell: #A491D2 ;
+--soap: #CDC3E6 ;
+--pale_lavender: #D4DCFF ;
+--dark_jungle: #1B1F21 ;
+--outer_space: #444749 ;
+--old_silver: #828485 ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container_chat {
+    background-color: var(--white);
+    width: 24rem;
+    border-right: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+}
+
+.container_profile {
+    display: flex;
+    border-bottom: 1px solid var(--gray);
+    padding: 10px 25px;
+    justify-content: space-between;
+
+}
+
+.container_profile img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container_profile_user {
+    display: flex;
+
+}
+
+.container_profile_icons {
+    display: flex;
+}
+
+.container_profile_icons i {
+    margin: 5px;
+    color: var(--old_silver);
+}
+
+.container_profile_name {
+    font-size: 16px;
+    color: var(--dark_jungle);
+}
+
+.container_profile_active {
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.container_button {
+    height: 150px;
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 13rem;
+    background-color: var(--blue_bell);
+    color: var(--white);
+    border: none;
+    height: 50px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: var(--pale_lavender);
+}
+
+.button:focus {
+    background-color: var(--old_silver);
+}
+
+.container_users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px var(--gray);
+}
+
+.container_users img {
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid var(--old_silver);
+
+}
+
+.container_general {
+    width: 100%;
+    background-color: var(--platinium);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_general_box {
+    width: 34rem;
+    text-align: center;
+    
+}
+
+.container_general img {
+    width: 300px;
+
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 46px;
+}
+
+span {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+}
